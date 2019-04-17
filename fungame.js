@@ -50,19 +50,19 @@ function createRandomSquares(){
 }
 
 function changeDirection(e){
-    if(e.key == "d" || e.key == "ArrowRight") {
+    if(e.key == "d") {
         dx = 1;
         dy = 0
     }
-    else if(e.key == "a" || e.key == "ArrowLeft") {
+    else if(e.key == "a") {
         dx = -1;
         dy = 0;
     }
-    else if(e.key == "w" || e.key == "ArrowUp"){
+    else if(e.key == "w"){
         dx = 0;
         dy = -1;
     }
-    else if(e.key == "s" || e.key == "ArrowDown"){
+    else if(e.key == "s"){
         dx = 0;
         dy = 1;
     }
@@ -78,7 +78,7 @@ function changeDirection(e){
         dx = -1;
         dy = 1;
     }
-    else if(e.key == "c"){
+    else if(e.key == "x"){
         dx = 1;
         dy = 1;
     }
