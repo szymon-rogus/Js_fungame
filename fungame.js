@@ -264,7 +264,7 @@ function Go(){
     dx = 0;
     dy = 0;
     cancelingAllIntervals();
-    total_time = 10;
+    total_time = 60;
     score = 0;
     counting = 3;
 
