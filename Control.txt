@@ -1,0 +1,10 @@
+W - up
+S - down
+A - left
+D - right
+Q - up-right
+E - up-left
+Z - down-left
+X - down-right
+
+P - pause
